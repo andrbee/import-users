@@ -788,24 +788,7 @@
     </style>
     </script>
 
-{{--    <script src="https://js.pusher.com/8.3/pusher.min.js"></script>--}}
     <script>
-        // var pusher = new Pusher('key', {
-        //     wsHost: 'localhost',
-        //     wsPort: 6001,
-        //     wsPath: '/ws',
-        //     cluster: 'mt1',
-        //     forceTLS: false,
-        //     enabledTransports: ['ws'],
-        // });
-        //
-        // pusher.connection.bind('connected', () => {
-        //     console.log('connected');
-        //     pusher.subscribe('private-users')
-        //         .bind('component.data.ready', (data) => {
-        //             console.log(data);
-        //         });
-        // });
         dashboardUsers();
 
         function importUsers() {
