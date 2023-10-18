@@ -863,9 +863,9 @@
 <div class="import_users">
     <div class="text-center mt-16">
         <span><button onclick="importUsers()">Импорт пользователей</button></span>
-        <span>Всего: </span><span id="count__all">100</span>
-        <span>Добавлено: </span><span id="count__added">22</span>
-        <span>Обновлено: </span><span id="count__updated">78</span>
+        <span>Всего: </span><span id="count__all"></span>
+        <span>Добавлено: </span><span id="count__added"></span>
+        <span>Обновлено: </span><span id="count__updated"></span>
     </div>
 </div>
 </body>
